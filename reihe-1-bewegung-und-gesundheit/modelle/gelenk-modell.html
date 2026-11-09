@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modell: Gelenktypen ausprobieren – Biologie Klasse 6</title>
+  <meta name="description" content="Kugel-, Scharnier-, Sattel- und Drehgelenk bewegen">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <script src="../../assets/reihe1.js" defer></script>
+</head>
+<body class="reihe-1">
+  <header class="kopf">
+    <div class="huelle">
+      <a class="marke" href="../../index.html"><svg class="ill" viewBox="0 0 40 40" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path class="s f-gruen" d="M8 30 C 4 18, 12 6, 22 5 C 34 4, 38 16, 33 26 C 29 34, 14 36, 8 30 Z"/><path class="s2 k-gruen" fill="none" d="M10 31 C 16 24, 22 18, 30 10"/><circle class="s f-rosa-tief" cx="30" cy="30" r="6"/></svg>Biologie Klasse 6</a>
+      <nav aria-label="Brotkrümel"><ol class="pfad"><li><a href="../index.html">Bewegung und Gesundheit</a></li><li aria-current="page">Modell</li></ol></nav>
+    </div>
+  </header>
+  <main id="inhalt">
+
+<article class="spalte lerntext">
+  <div class="uebung-kopf"><svg class="ill symbol" viewBox="0 0 64 64" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g transform="translate(32 44) scale(0.42)"><path class="s f-weiss" d="M-44 40 V 16 Q -44 -6 -22 -6 H 22 Q 44 -6 44 16 V 40 Z"/><rect class="s f-gelb" x="-38" y="-30" width="76" height="34" rx="17"/><rect class="s f-gelb" x="-10" y="-90" width="20" height="62" rx="6"/><path class="s2 k-koralle" fill="none" d="M-14 -82 Q-34.0 -78.0 -54 -54"/><path class="s2 k-koralle" fill="none" d="M-51.8 -62.7 L-54 -54 L-45.8 -57.7"/><path class="s2 k-koralle" fill="none" d="M14 -82 Q34.0 -58.0 54 -54"/><path class="s2 k-koralle" fill="none" d="M45.3 -51.8 L54 -54 L46.8 -59.4"/></g></svg><h1>Modell: Gelenktypen ausprobieren</h1></div>
+  
+<p class="lead">Wähle einen Gelenktyp und bewege den Knochen mit den Reglern. Welche Bewegungen sind möglich und welche nicht?</p>
+<div class="modell" id="gm">
+  <div class="wahl" role="group" aria-label="Gelenktyp wählen">
+    <button type="button" data-typ="kugel" aria-pressed="true">Kugelgelenk</button>
+    <button type="button" data-typ="scharnier" aria-pressed="false">Scharniergelenk</button>
+    <button type="button" data-typ="sattel" aria-pressed="false">Sattelgelenk</button>
+    <button type="button" data-typ="dreh" aria-pressed="false">Drehgelenk</button>
+  </div>
+  <svg id="gm-bild" class="ill" viewBox="0 0 640 340" role="img" aria-label="Modell eines Gelenks, dessen Knochen sich mit den Reglern bewegen lässt"></svg>
+  <div class="modell-steuerung"><label for="gm-a">vor und zurück</label><input type="range" id="gm-a" min="-60" max="60" value="0" class="breit-regler"></div>
+  <div class="modell-steuerung"><label for="gm-b">zur Seite</label><input type="range" id="gm-b" min="-60" max="60" value="0" class="breit-regler"></div>
+  <div class="modell-steuerung"><label for="gm-c">drehen</label><input type="range" id="gm-c" min="-90" max="90" value="0" class="breit-regler"></div>
+  <div class="schritt-text" aria-live="polite"><h3 id="gm-titel"></h3><p id="gm-text"></p><p id="gm-hinweis" class="legende"></p></div>
+</div>
+<h2>Arbeitsaufträge</h2>
+<ol>
+  <li>Probiere bei jedem Gelenktyp alle drei Regler aus. Lege eine Tabelle an: Welche Bewegungen sind möglich?</li>
+  <li>Finde an deinem Körper zu jedem Gelenktyp ein Beispiel und überprüfe die Bewegungen.</li>
+  <li>Erkläre, warum das Schultergelenk beweglicher ist als das Ellenbogengelenk.</li>
+</ol>
+<h3>Grenzen des Modells</h3>
+<p>Das Modell zeigt nur den Knochen und die Grundform des Gelenks. Gelenkkapsel, Bänder und Muskeln fehlen, obwohl gerade sie die Bewegungen im Körper begrenzen. Echte Gelenke können sich auch nicht so weit bewegen, wie die Regler es erlauben, und manche, etwa das Knie, sind Mischformen.</p>
+
+  <nav class="weiter" aria-label="Navigation"><a href="../index.html">Zur Übersicht der Reihe</a></nav>
+</article>
+  </main>
+  <footer class="fuss">
+    <div class="huelle">
+      <p>Biologie, Klasse 6. Die Übungen speichern keine Daten und funktionieren ohne Anmeldung.</p>
+    </div>
+  </footer>
+</body>
+</html>
